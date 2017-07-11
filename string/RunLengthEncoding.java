@@ -14,8 +14,8 @@ public class RunLengthEncoding {
 	        if (i + 1 < text.length() && text.charAt(i) == text.charAt(i + 1))
 	            count++;
 	        else {
-	            encodedString = encodedString.concat(Integer.toString(count))
-	                    .concat(Character.toString(text.charAt(i)));
+	            encodedString = encodedString.concat(Character.toString(text.charAt(i))
+	                    .concat(Integer.toString(count)));
 	            count = 1;
 	        }
 	    }
