@@ -4,10 +4,6 @@ public class LongestPalindromeFinder {
 	public static void main(String[] args) {
 		System.out.println(longestPalindromeString("1234"));
 		System.out.println(longestPalindromeString("12321"));
-		System.out.println(longestPalindromeString("9912321456"));
-		System.out.println(longestPalindromeString("9912333321456"));
-		System.out.println(longestPalindromeString("12145445499"));
-		System.out.println(longestPalindromeString("1223213"));
 		System.out.println(longestPalindromeString("abb"));
 	}
 
