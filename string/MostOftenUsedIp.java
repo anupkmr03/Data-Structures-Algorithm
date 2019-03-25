@@ -46,9 +46,8 @@ public class MostOftenUsedIp {
 
 
     private static List<Entry<String, Integer>> findGreatest(HashMap<String, Integer> map, int n) {
-
-        PriorityQueue<Entry<String, Integer>> heap = new PriorityQueue<>(map.size(), (o1, o2) -> 0);
-
+        PriorityQueue<Entry<String, Integer>> heap = new PriorityQueue<>(map.size(),
+                (o1, o2) -> Integer.compare(o2.getValue(), o1.getValue()));
         heap.addAll(map.entrySet());
 
         List<Entry<String, Integer>> result = new ArrayList<>();
