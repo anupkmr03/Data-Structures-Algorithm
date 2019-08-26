@@ -1,3 +1,3 @@
 # Data-Structures-Algorithm
 
-Simple Data structure based problem implemented in Java
+Simple Data structure based problems implemented in Java
